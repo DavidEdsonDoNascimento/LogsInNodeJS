@@ -2,12 +2,14 @@ import bodyParser from 'body-parser';
 import express from 'express';
 import cors from 'cors';
 import logger from './logger';
+import pinoHttp from 'pino-http';
 
 const app = express();
 
 app.use(
   bodyParser.json(),
   cors({ credentials: true }),
+  pinoHttp({ logger })
 );
 
 app

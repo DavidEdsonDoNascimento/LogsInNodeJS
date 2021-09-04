@@ -2,3 +2,4 @@
 
 * Adicionar dependencias para desenvolvimento e geração de logs (*pino, pino-http, pino-pretty, @types/pino*)
 * Criar diretório onde ficará o service de logs, neste exemplo **/logger**
+* Adicionar o pino-http como middleware para que ele guarde logs das requests

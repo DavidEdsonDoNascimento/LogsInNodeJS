@@ -137,6 +137,13 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.7.10.tgz#7aa732cc47341c12a16b7d562f519c2383b6d4fc"
   integrity sha512-S63Dlv4zIPb8x6MMTgDq5WWRJQe56iBEY0O3SOFA9JrRienkOVDXSXBjjJw6HTNQYSE2JI6GMCR6LVbIMHJVvA==
 
+"@types/pino-http@^5.7.0":
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/@types/pino-http/-/pino-http-5.7.0.tgz#d6e5719ff0640f716b873ed717da09629351a264"
+  integrity sha512-6I6Nmp5ySfaxE+QFMZWGpDMTfkx8AHh6VETkqAixiTupeTY2uOSnMmGAbtLoWIA1ymrw+lCvA8HB0U4JkL0gTQ==
+  dependencies:
+    "@types/pino" "*"
+
 "@types/pino-pretty@*":
   version "4.7.1"
   resolved "https://registry.yarnpkg.com/@types/pino-pretty/-/pino-pretty-4.7.1.tgz#2ce3f56f3cf4f9632374419d616ae2e6c933b935"
