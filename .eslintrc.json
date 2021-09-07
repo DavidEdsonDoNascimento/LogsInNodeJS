@@ -1,13 +1,7 @@
 {
-    "env": {
-        "es2021": true,
-        "node": true
-    },
     "extends": [
-        "airbnb-base",
-        "airbnb-typescript/base"
+        "standard-with-typescript"
     ],
-    "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "project": "./tsconfig.json"
     },
@@ -15,5 +9,7 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "@typescript-eslint/strict-boolean-expressions": "off",
+        "@typescript-eslint/consistent-type-definitions": "off"
     }
 }

@@ -9,7 +9,7 @@ const app = express();
 app.use(
   bodyParser.json(),
   cors({ credentials: true }),
-  pinoHttp({ logger })
+  pinoHttp({ logger }),
 );
 
 app
